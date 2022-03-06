@@ -11,11 +11,11 @@ function MyApp({ Component, pageProps }) {
       <Head>
 
       </Head>
-      <ChakraProvider>
+      <ChakraProvide>
         <Layout>
           <Component {...pageProps} />
         </Layout>
-      </ChakraProvider>
+      </ChakraProvide>
     </>
   )
 }
